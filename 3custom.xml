@@ -91,7 +91,7 @@
   <project path="hardware/qcom/audio-caf/msm8998" name="AOSP-10/hardware_qcom_audio-caf_msm8998" revision="10" remote="github" />
   <project path="hardware/qcom/display-caf/msm8998" name="AOSP-10/hardware_qcom_display-caf_msm8998" revision="10" remote="github" />
   <project path="hardware/qcom/media-caf/msm8998" name="AOSP-10/hardware_qcom_media-caf_msm8998" revision="10" remote="github" />
-  <project path="kernel/xiaomi/msm8998" name="AOSP-10/kernel_xiaomi_msm8998" revision="10" remote="github" clone-depth="1" />
+  <!-- <project path="kernel/xiaomi/msm8998" name="AOSP-10/kernel_xiaomi_msm8998" revision="10" remote="github" clone-depth="1" /> -->
 
   <!-- System Repos -->
   <project path="system/bt" name="AOSP-10/system_bt" revision="10" remote="github" />
