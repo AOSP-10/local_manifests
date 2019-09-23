@@ -1,0 +1,28 @@
+# Android Open Source Project #
+
+### 用你知道的方式把AOSP源码同步下来 ###
+
+```bash
+
+# 清华源节点
+repo init -u https://aosp.tuna.tsinghua.edu.cn/platform/manifest -b android-10.0.0_r2 --depth=1
+
+git clone https://github.com/AOSP-10/local_manifests .repo/local_manifests -b 10
+
+# 同步源码
+repo sync -c -jx --force-sync --no-clone-bundle --no-tags
+```
+
+### 编译 ###
+
+```bash
+
+# Set up environment
+$ . build/envsetup.sh
+
+# Choose a target
+$ lunch aosp_$device-userdebug
+
+# Build the code
+$ brunch $device
+```

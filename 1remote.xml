@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github"
+          fetch="https://github.com/" />
+  <remote name="pixel"
+          fetch="https://github.com/pe-wip"
+          revision="ten"
+          review="gerrit.pixelexperience.org" />
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-17.0" />
+</manifest>
