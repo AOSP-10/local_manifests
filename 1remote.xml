@@ -9,4 +9,7 @@
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
           revision="lineage-17.0" />
+  <remote name="pixel-gitlab"
+          fetch="https://gitlab.com/PixelExperience"
+          revision="ten" />
 </manifest>

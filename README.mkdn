@@ -1,4 +1,4 @@
-# Android Open Source Project #
+# Android Open Source Project Gapps#
 
 ### 用你知道的方式把AOSP源码同步下来 ###
 
@@ -8,7 +8,7 @@
 
 repo init -u https://aosp.tuna.tsinghua.edu.cn/platform/manifest -b android-10.0.0_r2 --depth=1
 
-git clone https://github.com/AOSP-10/local_manifests .repo/local_manifests -b 10
+git clone https://github.com/AOSP-10/local_manifests .repo/local_manifests -b 10-gapps
 
 # 同步源码
 

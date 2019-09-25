@@ -31,7 +31,7 @@
   <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" remote="pixel" />
 
   <!-- General repos -->
-  <project path="build/make" name="AOSP-10/build" revision="10" remote="github">
+  <project path="build/make" name="AOSP-10/build" revision="10-gapps" remote="github">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -46,7 +46,7 @@
   </project>
   <project path="bionic" name="AOSP-10/bionic" revision="10" remote="github" />
   <project path="bootable/recovery" name="AOSP-10/bootable_recovery" revision="10" remote="github" />
-  <project path="vendor/aosp" name="AOSP-10/vendor_aosp" revision="10" remote="github" />
+  <project path="vendor/aosp" name="AOSP-10/vendor_aosp" revision="10-gapps" remote="github" />
   
   <!-- External repos -->
   <project path="external/selinux" name="AOSP-10/external_selinux" revision="10" remote="github" />
@@ -64,10 +64,6 @@
   <!-- Packages repos -->
   <project path="packages/services/Telecomm" name="AOSP-10/packages_services_Telecomm" revision="10" remote="github" />
   <project path="packages/services/Telephony" name="AOSP-10/packages_services_Telephony" revision="10" remote="github" />
-  <project path="packages/apps/Launcher3" name="AOSP-10/packages_apps_Launcher3" revision="10" remote="github" />
-  <project path="packages/apps/DeskClock" name="AOSP-10/packages_apps_DeskClock" revision="10" remote="github" />
-  <project path="packages/apps/Messaging" name="AOSP-10/packages_apps_Messaging" revision="10" remote="github" />
-  <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" revision="refs/tags/android-9.0.0_r48" remote="aosp" />
 
   <!-- Framework repos -->
   <project path="frameworks/opt/telephony" name="AOSP-10/frameworks_opt_telephony" revision="10" remote="github" />

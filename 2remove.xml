@@ -52,6 +52,10 @@
   
   <!-- External repos -->
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/google-fonts/arbutus-slab" />
+  <remove-project name="platform/external/google-fonts/lato" />
+  <remove-project name="platform/external/google-fonts/rubik" />
+  <remove-project name="platform/external/google-fonts/zilla-slab" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/opt/telephony" />
@@ -96,10 +100,8 @@
   <remove-project name="platform/hardware/qcom/bt" />
   
   <!-- Packages repos -->
-  <remove-project name="platform/packages/apps/Messaging" />
-  <remove-project name="platform/packages/apps/Music" />
-  <remove-project name="platform/packages/apps/DeskClock" />
-  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Browser2" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
   
