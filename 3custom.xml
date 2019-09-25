@@ -22,7 +22,7 @@
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="pixel" />
   <project path="vendor/nxp/opensource/halimpl" name="vendor_nxp_opensource_halimpl" remote="pixel" />
   <project path="vendor/nxp/opensource/hidlimpl" name="vendor_nxp_opensource_hidlimpl" remote="pixel" />
-  <project path="vendor/codeaurora/telephony" name="WhyProject/android_vendor_codeaurora_telephony" revision="lineage-17.0" remote="github" />
+  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" revision="lineage-17.0" remote="github" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="pixel" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="pixel" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="pixel" />
