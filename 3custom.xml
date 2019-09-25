@@ -74,7 +74,7 @@
   <project path="frameworks/opt/net/wifi" name="AOSP-10/frameworks_opt_net_wifi" revision="10" remote="github" />
   <project path="frameworks/base" name="AOSP-10/frameworks_base" revision="10" remote="github" />
   <project path="frameworks/av" name="AOSP-10/frameworks_av" revision="10" remote="github" />
-
+  <project path="frameworks/native" name="AOSP-10/frameworks_native" revision="10" remote="github" />
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="pixel" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="pixel" clone-depth="1" />
