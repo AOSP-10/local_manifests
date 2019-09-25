@@ -63,6 +63,7 @@
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/native" />
+
   <!-- General repos -->
   <remove-project name="kernel/tests" />
   <remove-project name="platform/build" />
@@ -104,6 +105,7 @@
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
+  <remove-project name="platform/packages/apps/Nfc" />
   
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />

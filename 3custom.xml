@@ -64,6 +64,7 @@
   <!-- Packages repos -->
   <project path="packages/services/Telecomm" name="AOSP-10/packages_services_Telecomm" revision="10" remote="github" />
   <project path="packages/services/Telephony" name="AOSP-10/packages_services_Telephony" revision="10" remote="github" />
+  <project path="packages/apps/Nfc" name="AOSP-10/packages_apps_Nfc" revision="10" remote="github" />
 
   <!-- Framework repos -->
   <project path="frameworks/opt/telephony" name="AOSP-10/frameworks_opt_telephony" revision="10" remote="github" />
