@@ -3,32 +3,45 @@
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="AOSP-10/device_qcom_sepolicy" revision="10" remote="github" />
-  <project path="device/qcom/sepolicy-legacy" name="AOSP-10/device_qcom_sepolicy-legacy" revision="10" remote="github" />
-  <project path="hardware/qcom/thermal" name="AOSP-10/hardware_qcom_thermal" revision="10" remote="github" />
-  <project path="hardware/qcom/power" name="AOSP-10/hardware_qcom_power" revision="10" remote="github" />
+  <project path="device/qcom/sepolicy-legacy-um" name="AOSP-10/device_qcom_sepolicy-legacy" revision="10" remote="github" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" revision="lineage-17.0" remote="github" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" revision="lineage-17.0" remote="github" />
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" revision="lineage-17.0" remote="github" />
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" revision="lineage-17.0" remote="github" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" revision="lineage-17.0" remote="github" />
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="lineage-16.0" remote="github" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="lineage-17.0" remote="github" />
   <project path="system/qcom" name="AOSP-10/system_qcom" revision="10" remote="github" />
   <project path="system/tools/dtbtool" name="AOSP-10/system_tools_dtbtool" revision="10" remote="github" />
-  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt-caf" remote="pixel" />
-  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan-caf" remote="pixel" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_interfaces_opensource_nfc" remote="pixel" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="pixel" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="vendor_nxp_opensource_frameworks" remote="pixel" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="pixel" />
-  <project path="vendor/nxp/opensource/halimpl" name="vendor_nxp_opensource_halimpl" remote="pixel" />
-  <project path="vendor/nxp/opensource/hidlimpl" name="vendor_nxp_opensource_hidlimpl" remote="pixel" />
-  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" revision="lineage-17.0" remote="github" />
-  <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="pixel" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="pixel" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="pixel" />
-  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="pixel" />
-  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="pixel" />  
-  <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" remote="pixel" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="lineage" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="lineage" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="lineage" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="lineage" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" revision="lineage-17.0-pn5xx" remote="lineage" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="lineage-17.0-pn5xx" remote="lineage" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" revision="lineage-17.0-sn100x" remote="lineage" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" revision="lineage-17.0-sn100x" remote="lineage" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lineage" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="lineage" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="lineage" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="lineage" />  
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" />
+  <project path="hardware/qcom-caf/bt" name="hardware_qcom_bt-caf" remote="pixel" />
+  <project path="hardware/qcom-caf/power" name="hardware_qcom_power" remote="pixel" />
+  <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" remote="pixel" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan-caf" remote="pixel" />
+  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+  </project>
 
   <!-- General repos -->
   <project path="build/make" name="AOSP-10/build" revision="10" remote="github">
@@ -56,11 +69,11 @@
   <project path="hardware/custom/interfaces" name="AOSP-10/hardware_custom_interfaces" revision="10" remote="github" />
   <project path="hardware/libhardware" name="AOSP-10/hardware_libhardware" revision="10" remote="github" />
   <project path="hardware/libhardware_legacy" name="AOSP-10/hardware_libhardware_legacy" revision="10" remote="github" />
-  <project path="hardware/qcom/audio/default" name="AOSP-10/hardware_qcom_audio" revision="10" remote="github" />
+  <project path="hardware/qcom/audio" name="AOSP-10/hardware_qcom_audio" revision="10" remote="github" />
   <project path="hardware/qcom/bootctrl" name="AOSP-10/hardware_qcom_bootctrl" revision="10" remote="github" />
   <project path="hardware/qcom/camera" name="AOSP-10/hardware_qcom_camera" revision="10" remote="github" />
   <project path="hardware/qcom/display" name="AOSP-10/hardware_qcom_display" revision="10" remote="github" />
-  
+
   <!-- Packages repos -->
   <project path="packages/services/Telecomm" name="AOSP-10/packages_services_Telecomm" revision="10" remote="github" />
   <project path="packages/services/Telephony" name="AOSP-10/packages_services_Telephony" revision="10" remote="github" />
@@ -76,10 +89,11 @@
   <project path="frameworks/base" name="AOSP-10/frameworks_base" revision="10" remote="github" />
   <project path="frameworks/av" name="AOSP-10/frameworks_av" revision="10" remote="github" />
   <project path="frameworks/native" name="AOSP-10/frameworks_native" revision="10" remote="github" />
+
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="pixel" clone-depth="1" />
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="pixel" clone-depth="1" />
-  <project path="prebuilts/clang/host/linux-x86/clang-5873035" name="crDroidMod/android_prebuilts_clang_host_linux-x86_clang-5873035" revision="9.0" remote="github" />
+  <project path="prebuilts/clang/host/linux-x86/clang-9.0.7" name="crDroidMod/android_prebuilts_clang_host_linux-x86_clang-5873035" revision="9.0" remote="github" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="lineage" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="lineage" clone-depth="1" />
@@ -89,10 +103,9 @@
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
   <!-- msm8998 -->
-  <project path="hardware/qcom/audio-caf/msm8998" name="AOSP-10/hardware_qcom_audio-caf_msm8998" revision="10" remote="github" />
-  <project path="hardware/qcom/display-caf/msm8998" name="AOSP-10/hardware_qcom_display-caf_msm8998" revision="10" remote="github" />
-  <project path="hardware/qcom/media-caf/msm8998" name="AOSP-10/hardware_qcom_media-caf_msm8998" revision="10" remote="github" />
-  <!-- <project path="kernel/xiaomi/msm8998" name="AOSP-10/kernel_xiaomi_msm8998" revision="10" remote="github" clone-depth="1" /> -->
+  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media-caf_msm8998" remote="pixel" />
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display-caf_msm8998" remote="pixel" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio-caf_msm8998" remote="pixel" />
 
   <!-- System Repos -->
   <project path="system/bt" name="AOSP-10/system_bt" revision="10" remote="github" />
