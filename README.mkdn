@@ -28,3 +28,11 @@ $ lunch aosp_$device-userdebug
 # Build the code
 $ brunch $device
 ```
+
+### 已有源码切换分支 ###
+
+```bash
+
+$ repo init -b android-10.0.0_r9
+
+```
