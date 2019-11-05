@@ -6,7 +6,7 @@
 
 # 清华源节点
 
-repo init -u https://aosp.tuna.tsinghua.edu.cn/platform/manifest -b android-10.0.0_r9 --depth=1
+repo init -u https://aosp.tuna.tsinghua.edu.cn/platform/manifest -b android-10.0.0_r14 --depth=1
 
 git clone https://github.com/AOSP-10/local_manifests .repo/local_manifests -b 10
 
@@ -33,6 +33,6 @@ $ brunch $device
 
 ```bash
 
-$ repo init -b android-10.0.0_r9
+$ repo init -b android-10.0.0_r14
 
 ```
