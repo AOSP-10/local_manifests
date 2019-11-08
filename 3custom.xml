@@ -29,9 +29,9 @@
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="lineage" />  
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="lineage" />
   <project path="vendor/qcom/opensource/power" name="AOSP-10/vendor_qcom_opensource_power" revision="10" remote="github" />
-  <project path="hardware/qcom-caf/bt" name="hardware_qcom_bt-caf" remote="pixel" />
-  <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" remote="pixel" />
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan-caf" remote="pixel" />
+  <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" revision="lineage-17.0-caf" remote="lineage" />
+  <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" revision="lineage-17.0-caf" remote="lineage" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -103,10 +103,10 @@
   <project path="prebuilts/r8" name="android_prebuilts_r8" remote="lineage" clone-depth="1" />
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
-  <!-- msm8998 -->
-  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media-caf_msm8998" remote="pixel" />
-  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display-caf_msm8998" remote="pixel" />
-  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio-caf_msm8998" remote="pixel" />
+  <!-- msm8998 hardware repos -->
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" revision="lineage-17.0-caf-msm8998" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="lineage-17.0-caf-msm8998" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" revision="lineage-17.0-caf-msm8998" remote="lineage" />
 
   <!-- System Repos -->
   <project path="system/bt" name="AOSP-10/system_bt" revision="10" remote="github" />
