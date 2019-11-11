@@ -64,6 +64,7 @@
   
   <!-- External repos -->
   <project path="external/selinux" name="AOSP-10/external_selinux" revision="10" remote="github" />
+  <project path="external/tinycompress" name="AOSP-10/external_tinycompress" revision="10" remote="github" />
 
   <!-- Hardware repos -->
   <project path="hardware/interfaces" name="AOSP-10/hardware_interfaces" revision="10" remote="github" />
@@ -102,9 +103,9 @@
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
   <!-- msm8998 hardware repos -->
-  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" revision="lineage-17.0-caf-msm8998" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="lineage-17.0-caf-msm8998" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" revision="lineage-17.0-caf-msm8998" remote="lineage" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="sbwml/hardware_qcom-caf_audio_msm8998" revision="10" remote="github" />
+  <project path="hardware/qcom-caf/msm8998/display" name="AOSP-10/hardware_qcom-caf_display_msm8998" revision="10" remote="github" />
+  <project path="hardware/qcom-caf/msm8998/media" name="AOSP-10/hardware_qcom-caf_media_msm8998" revision="10" remote="github" />
 
   <!-- System Repos -->
   <project path="system/bt" name="AOSP-10/system_bt" revision="10" remote="github" />
