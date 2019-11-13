@@ -57,6 +57,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="build/blueprint" name="AOSP-10/build_blueprint" revision="10" remote="github" />
   <project path="bionic" name="AOSP-10/bionic" revision="10" remote="github" />
   <project path="bootable/recovery" name="AOSP-10/bootable_recovery" revision="10" remote="github" />
   <project path="vendor/aosp" name="AOSP-10/vendor_aosp" revision="10" remote="github" />
