@@ -104,7 +104,7 @@
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
   <!-- msm8998 hardware repos -->
-  <project path="hardware/qcom-caf/msm8998/audio" name="sbwml/hardware_qcom-caf_audio_msm8998" revision="10" remote="github" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="AOSP-10/hardware_qcom-caf_audio_msm8998" revision="10" remote="github" />
   <project path="hardware/qcom-caf/msm8998/display" name="AOSP-10/hardware_qcom-caf_display_msm8998" revision="10" remote="github" />
   <project path="hardware/qcom-caf/msm8998/media" name="AOSP-10/hardware_qcom-caf_media_msm8998" revision="10" remote="github" />
 
