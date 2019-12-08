@@ -49,25 +49,25 @@
   <remove-project name="device/linaro/poplar-kernel" />
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
-  
+  <remove-project name="kernel/tests" />
+
+  <!-- General repos -->
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/blueprint" />
+  <remove-project name="platform/build/soong" />
+
   <!-- External repos -->
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
 
   <!-- Framework repos -->
-  <remove-project name="platform/frameworks/opt/telephony" />
-  <remove-project name="platform/frameworks/opt/net/wifi" />
-  <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
-
-  <!-- General repos -->
-  <remove-project name="kernel/tests" />
-  <remove-project name="platform/build" />
-  <remove-project name="platform/build/blueprint" />
-  <remove-project name="platform/build/soong" />
-  <remove-project name="platform/bionic" />
-  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <remove-project name="platform/frameworks/opt/telephony" />
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/interfaces" />
@@ -75,6 +75,7 @@
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
+  <remove-project name="platform/hardware/qcom/bt" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/display" />
@@ -96,22 +97,21 @@
   <remove-project name="platform/hardware/qcom/sdm845/thermal" />
   <remove-project name="platform/hardware/qcom/sdm845/vr" />
   <remove-project name="platform/hardware/qcom/wlan" />
-  <remove-project name="platform/hardware/qcom/bt" />
-  
+
   <!-- Packages repos -->
   <remove-project name="platform/packages/apps/Browser2" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Nfc" />
-  
+
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/r8" />
-  
+
   <!-- System repos -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
