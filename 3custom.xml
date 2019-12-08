@@ -74,17 +74,14 @@
   <project path="hardware/qcom/audio" name="AOSP-10/hardware_qcom_audio" revision="10" remote="github" />
   <project path="hardware/qcom/bootctrl" name="AOSP-10/hardware_qcom_bootctrl" revision="10" remote="github" />
   <project path="hardware/qcom/camera" name="AOSP-10/hardware_qcom_camera" revision="10" remote="github" />
-  <project path="hardware/qcom/display" name="AOSP-10/hardware_qcom_display" revision="10" remote="github" />
 
   <!-- Packages repos -->
-  <project path="packages/services/Telecomm" name="AOSP-10/packages_services_Telecomm" revision="10" remote="github" />
-  <project path="packages/services/Telephony" name="AOSP-10/packages_services_Telephony" revision="10" remote="github" />
   <project path="packages/apps/Launcher3" name="AOSP-10/packages_apps_Launcher3" revision="10" remote="github" />
   <project path="packages/apps/DeskClock" name="AOSP-10/packages_apps_DeskClock" revision="10" remote="github" />
   <project path="packages/apps/Messaging" name="AOSP-10/packages_apps_Messaging" revision="10" remote="github" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" revision="refs/tags/android-9.0.0_r48" remote="aosp" />
-  <project path="packages/apps/Nfc" name="AOSP-10/packages_apps_Nfc" revision="10" remote="github" />
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="lineage" />
+  <project path="packages/apps/Nfc" name="AOSP-10/packages_apps_Nfc" revision="10" remote="github" />
 
   <!-- Framework repos -->
   <project path="frameworks/opt/telephony" name="AOSP-10/frameworks_opt_telephony" revision="10" remote="github" />
@@ -109,9 +106,7 @@
   <project path="hardware/qcom-caf/msm8998/media" name="AOSP-10/hardware_qcom-caf_media_msm8998" revision="10" remote="github" />
 
   <!-- System Repos -->
-  <project path="system/bt" name="AOSP-10/system_bt" revision="10" remote="github" />
   <project path="system/core" name="AOSP-10/system_core" revision="10" remote="github" />
-  <project path="system/netd" name="AOSP-10/system_netd" revision="10" remote="github" />
   <project path="system/sepolicy" name="AOSP-10/system_sepolicy" revision="10" remote="github" />
   <project path="system/vold" name="AOSP-10/system_vold" revision="10" remote="github" />
 
