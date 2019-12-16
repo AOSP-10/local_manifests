@@ -59,6 +59,7 @@
   <remove-project name="platform/build/soong" />
 
   <!-- External repos -->
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
 
