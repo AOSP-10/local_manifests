@@ -82,9 +82,8 @@
   <project path="hardware/interfaces" name="AOSP-10/hardware_interfaces" revision="10" remote="github" />
   <project path="hardware/libhardware_legacy" name="AOSP-10/hardware_libhardware_legacy" revision="10" remote="github" />
   <project path="hardware/libhardware" name="AOSP-10/hardware_libhardware" revision="10" remote="github" />
-  <project path="hardware/qcom/audio" name="AOSP-10/hardware_qcom_audio" revision="10" remote="github" />
   <project path="hardware/qcom/bootctrl" name="AOSP-10/hardware_qcom_bootctrl" revision="10" remote="github" />
-  <!--project path="hardware/qcom/camera" name="AOSP-10/hardware_qcom_camera" revision="10" remote="github" /-->
+  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSP-10/hardware_qcom_audio_msm8998" revision="10" remote="github" />
 
   <!-- Packages repos -->
   <project path="packages/apps/DeskClock" name="AOSP-10/packages_apps_DeskClock" revision="10" remote="github" />
