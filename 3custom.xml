@@ -66,6 +66,7 @@
   
   <!-- External repos -->
   <project path="external/chromium-webview" name="AOSP-10/external_chromium-webview" revision="10" remote="github" />
+  <project path="external/conscrypt" name="AOSP-10/external_conscrypt" revision="10" remote="github" />
   <project path="external/selinux" name="AOSP-10/external_selinux" revision="10" remote="github" />
   <project path="external/tinycompress" name="AOSP-10/external_tinycompress" revision="10" remote="github" />
 
@@ -87,11 +88,16 @@
   <!-- Packages repos -->
   <project path="packages/apps/DeskClock" name="AOSP-10/packages_apps_DeskClock" revision="10" remote="github" />
   <project path="packages/apps/Dialer" name="AOSP-10/packages_apps_Dialer" revision="10" remote="github" />
+  <project path="packages/apps/DocumentsUI" name="AOSP-10/packages_apps_DocumentsUI" revision="10" remote="github" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" revision="refs/tags/android-9.0.0_r48" remote="aosp" />
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="lineage" />
   <project path="packages/apps/Launcher3" name="AOSP-10/packages_apps_Launcher3" revision="10" remote="github" />
   <project path="packages/apps/Messaging" name="AOSP-10/packages_apps_Messaging" revision="10" remote="github" />
   <project path="packages/apps/Nfc" name="AOSP-10/packages_apps_Nfc" revision="10" remote="github" />
+  <project path="packages/apps/PermissionController" name="AOSP-10/packages_apps_PackageInstaller" revision="10" remote="github" />
+  <project path="packages/modules/CaptivePortalLogin" name="AOSP-10/packages_modules_CaptivePortalLogin" revision="10" remote="github" />
+  <project path="packages/modules/ExtServices" name="AOSP-10/packages_modules_ExtServices" revision="10" remote="github" />
+  <project path="packages/modules/NetworkStack" name="AOSP-10/packages_modules_NetworkStack" revision="10" remote="github" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/clang-r377782b" name="AOSP-10/prebuilts_clang_host_linux-x86_clang-r377782b" revision="10" remote="github" />
