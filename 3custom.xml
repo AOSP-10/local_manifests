@@ -21,6 +21,7 @@
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
+  <project path="hardware/qcom-caf/msm8998/audio" name="AOSP-10/hardware_qcom-caf_audio_msm8998" revision="10" remote="github" />
   <project path="hardware/qcom-caf/msm8998/display" name="AOSP-10/hardware_qcom-caf_display_msm8998" revision="10" remote="github" />
   <project path="hardware/qcom-caf/msm8998/media" name="AOSP-10/hardware_qcom-caf_media_msm8998" revision="10" remote="github" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" />
@@ -82,7 +83,6 @@
   <project path="hardware/libhardware_legacy" name="AOSP-10/hardware_libhardware_legacy" revision="10" remote="github" />
   <project path="hardware/libhardware" name="AOSP-10/hardware_libhardware" revision="10" remote="github" />
   <project path="hardware/qcom/bootctrl" name="AOSP-10/hardware_qcom_bootctrl" revision="10" remote="github" />
-  <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSP-10/hardware_qcom_audio_msm8998" revision="10" remote="github" />
 
   <!-- Packages repos -->
   <project path="packages/apps/DeskClock" name="AOSP-10/packages_apps_DeskClock" revision="10" remote="github" />
