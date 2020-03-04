@@ -108,7 +108,4 @@
   <project path="system/sepolicy" name="AOSP-10/system_sepolicy" revision="10" remote="github" />
   <project path="system/vold" name="AOSP-10/system_vold" revision="10" remote="github" />
 
-  <!-- Tools -->
-  <project path="tools/apifinder" name="platform/tools/apifinder" revision="refs/tags/android-mainline-10.0.0_r9" remote="aosp" />
-
 </manifest>
