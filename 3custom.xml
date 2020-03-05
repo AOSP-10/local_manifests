@@ -86,7 +86,7 @@
 
   <!-- Local_manifests -->
   <project path="local_manifests" name="AOSP-10/local_manifests" revision="10" remote="github" >
-    <linkfile src="local_manifests/sync.sh" dest="sync.sh" />
+    <linkfile src="sync.sh" dest="sync.sh" />
   </project>
 
   <!-- Packages repos -->
