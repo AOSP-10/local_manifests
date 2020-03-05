@@ -68,7 +68,6 @@
   <!-- External repos -->
   <project path="external/chromium-webview" name="AOSP-10/external_chromium-webview" revision="10" remote="github" />
   <project path="external/selinux" name="AOSP-10/external_selinux" revision="10" remote="github" />
-  <project path="external/tinycompress" name="AOSP-10/external_tinycompress" revision="10" remote="github" />
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="AOSP-10/frameworks_av" revision="10" remote="github" />

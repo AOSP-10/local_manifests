@@ -61,7 +61,6 @@
   <!-- External repos -->
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/selinux" />
-  <remove-project name="platform/external/tinycompress" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/av" />
