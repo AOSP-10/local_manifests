@@ -97,6 +97,8 @@
   <project path="packages/apps/Launcher3" name="AOSP-10/packages_apps_Launcher3" revision="10" remote="github" />
   <project path="packages/apps/Messaging" name="AOSP-10/packages_apps_Messaging" revision="10" remote="github" />
   <project path="packages/apps/Nfc" name="AOSP-10/packages_apps_Nfc" revision="10" remote="github" />
+  <project path="packages/apps/ThemePicker" name="AOSP-10/packages_apps_ThemePicker" revision="10" remote="github" />
+  <project path="packages/overlays/Themes" name="AOSP-10/packages_overlays_Themes" revision="10" remote="github" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/clang/host/linux-x86/clang-r377782b" name="AOSP-10/prebuilts_clang_host_linux-x86_clang-r377782b" revision="10" remote="github" />
