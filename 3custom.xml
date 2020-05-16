@@ -97,6 +97,7 @@
   <project path="packages/apps/Launcher3" name="AOSP-10/packages_apps_Launcher3" revision="10" remote="github" />
   <project path="packages/apps/Messaging" name="AOSP-10/packages_apps_Messaging" revision="10" remote="github" />
   <project path="packages/apps/Nfc" name="AOSP-10/packages_apps_Nfc" revision="10" remote="github" />
+  <project path="packages/apps/Settings" name="AOSP-10/packages_apps_Settings" revision="10" remote="github" />
   <project path="packages/apps/ThemePicker" name="AOSP-10/packages_apps_ThemePicker" revision="10" remote="github" />
   <project path="packages/overlays/Themes" name="AOSP-10/packages_overlays_Themes" revision="10" remote="github" />
 
