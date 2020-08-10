@@ -5,6 +5,6 @@
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
           revision="lineage-17.1" />
-  <remote name="private"
-          fetch="https://git.cooluc.com/" />
+  <remote name="gitee"
+          fetch="https://gitee.com/" />
 </manifest>

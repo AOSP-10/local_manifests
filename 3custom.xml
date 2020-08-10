@@ -63,7 +63,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="vendor/aosp" name="sbwml/vendor_aosp" revision="10" remote="private" />
+  <project path="vendor/aosp" name="sbwml/vendor_aosp" revision="10" remote="gitee" />
   
   <!-- External repos -->
   <project path="external/chromium-webview" name="AOSP-10/external_chromium-webview" revision="10" remote="github" />
